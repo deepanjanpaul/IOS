@@ -13,6 +13,9 @@
 		1AFE21121A0CDB8900F8387F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFE21111A0CDB8900F8387F /* Images.xcassets */; };
 		1AFE21151A0CDB8900F8387F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AFE21131A0CDB8900F8387F /* LaunchScreen.xib */; };
 		1AFE21211A0CDB8900F8387F /* JasontestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE21201A0CDB8900F8387F /* JasontestingTests.swift */; };
+		1AFE212C1A0CDBBD00F8387F /* File.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AFE212A1A0CDBBD00F8387F /* File.json */; };
+		1AFE212D1A0CDBBD00F8387F /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFE212B1A0CDBBD00F8387F /* TemplateIcon2x.png */; };
+		1AFE212F1A0CE54600F8387F /* JasonParson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE212E1A0CE54600F8387F /* JasonParson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		1AFE211A1A0CDB8900F8387F /* JasontestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JasontestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFE211F1A0CDB8900F8387F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AFE21201A0CDB8900F8387F /* JasontestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JasontestingTests.swift; sourceTree = "<group>"; };
+		1AFE212A1A0CDBBD00F8387F /* File.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = File.json; sourceTree = "<group>"; };
+		1AFE212B1A0CDBBD00F8387F /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		1AFE212E1A0CE54600F8387F /* JasonParson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JasonParson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 		1AFE20FC1A0CDB8800F8387F = {
 			isa = PBXGroup;
 			children = (
+				1AFE212E1A0CE54600F8387F /* JasonParson.swift */,
+				1AFE212A1A0CDBBD00F8387F /* File.json */,
+				1AFE212B1A0CDBBD00F8387F /* TemplateIcon2x.png */,
 				1AFE21071A0CDB8800F8387F /* Jasontesting */,
 				1AFE211D1A0CDB8900F8387F /* JasontestingTests */,
 				1AFE21061A0CDB8800F8387F /* Products */,
@@ -192,6 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFE212D1A0CDBBD00F8387F /* TemplateIcon2x.png in Resources */,
+				1AFE212C1A0CDBBD00F8387F /* File.json in Resources */,
 				1AFE21101A0CDB8900F8387F /* Main.storyboard in Resources */,
 				1AFE21151A0CDB8900F8387F /* LaunchScreen.xib in Resources */,
 				1AFE21121A0CDB8900F8387F /* Images.xcassets in Resources */,
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AFE210D1A0CDB8800F8387F /* ViewController.swift in Sources */,
+				1AFE212F1A0CE54600F8387F /* JasonParson.swift in Sources */,
 				1AFE210B1A0CDB8800F8387F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +419,7 @@
 				1AFE21261A0CDB8900F8387F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AFE21271A0CDB8900F8387F /* Build configuration list for PBXNativeTarget "JasontestingTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				1AFE21291A0CDB8900F8387F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

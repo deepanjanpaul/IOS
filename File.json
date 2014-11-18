@@ -1,0 +1,51 @@
+{ "FIRST":
+    
+    {
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25,
+  "address":
+  {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021"
+  },
+  "phoneNumber":
+    [
+       {
+          "type": "home",
+          "number": "212 555-1234"
+       },
+       {
+          "type": "fax",
+          "number": "646 555-4567"
+       }
+   ]
+}
+,
+"SECOND":
+{
+    "firstName": "John100",
+    "lastName": "Smith100",
+    "age": 25100,
+    "address":
+    {
+        "streetAddress": "2100 2nd Street",
+        "city": "New York100",
+        "state": "NY1",
+        "postalCode": "100"
+    },
+    "phoneNumber":
+    [
+     {
+     "type": "home",
+     "number": "212 555-"
+     },
+     {
+     "type": "fax",
+     "number": "500"
+     }
+     ]
+}
+}
